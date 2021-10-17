@@ -1,6 +1,6 @@
 body{
     font-family:poppins;
-    background-image: img("House1.png");
+    background-image: img(images/"House1.png");
     background-size: cover;
     background-attachment: fixed;
     margin: 100px;
