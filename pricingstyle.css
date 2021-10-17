@@ -1,0 +1,71 @@
+body{
+    font-family:poppins;
+    background-image: url(House1.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 100px;
+}
+.plan{
+    width:900px;
+    margin: 5% auto; 
+}
+.price-box{
+    width: 33%;
+    background:#262626;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+.price{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #da4357;
+  margin : 5% auto 0 auto;
+  text-align: center;
+}
+.deals{
+    margin-top: 10%;
+}
+.price-box h1{ 
+    font-size: 18px;
+    color: #fff;
+}
+.price h2{
+font-size: 38px;
+color: #fff;
+}
+.deals h4{
+    font-size: 14px;
+    font-weight: normal;
+    text-align:center;
+    color:#fff;
+    line-height: 1;
+}   
+.price-box:hover .price{
+    border-color: #fff;
+}   
+.price-box:hover {
+    background: #da4357;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px
+}    
+.plan a{
+    text-decoration: none;
+    background: #da4357;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.plan:hover a{
+    background: #262626;
+    color:#fff
+}
