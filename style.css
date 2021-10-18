@@ -13,7 +13,7 @@ body{
 .featuresbox {
     width: 80%;
     background:#262626;
-    float:center;
+    float:left;
     box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
     margin-top: 2%;
     text-align: left;
