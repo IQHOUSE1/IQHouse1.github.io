@@ -10,10 +10,6 @@ body{
 */
   
 /* Feature page ********************/
-.features{
-    width:900px;
-    margin: 5% auto; 
-}
 .fbox{
     width: 80%;
     background:#262626;
@@ -23,7 +19,8 @@ body{
     text-align: left;
   }
 .featurestext{
-    margin-top: 10%;
+    font-size: 15px;
+    color: #fff;
 }
 /* Price page ********************/
 body{
