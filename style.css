@@ -116,18 +116,12 @@ color: #fff;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@100&display=swap');
-
-*{
+.boxx
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    background: #81c644;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 .wrapper{
     margin-top: 10%;
 }
@@ -157,13 +151,6 @@ body{
     color: #8e8b8b;
     position: relative;
 }
-
-.team .team_member h3{
-    color: #81c644;
-    font-size: 26px;
-    margin-top: 50px;
-}
-
 .team .team_member p.role{
     color: #ccc;
     font-size: 12px;
