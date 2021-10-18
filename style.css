@@ -10,7 +10,11 @@ body{
 */
   
 /* Feature page ********************/
-.featuresbox {
+.features{
+    width:900px;
+    margin: 5% auto; 
+}
+.fbox{
     width: 80%;
     background:#262626;
     float:left;
