@@ -23,5 +23,49 @@ ul {
     <li><a href="https://iqhouse1.github.io/pricing">Pricing</a></li>
     <li><a href="https://iqhouse1.github.io/team">Team</a></li>
 </ul>
+/* Index ********************/
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Our Team</title>
+</head>
+
+<body>
+    <h1 class="heading">Our Team</h1>
+    <div class="image-container">
+        <div class="image" onclick="fetch_info(0)"><img src="1square.jpg"></div>
+        <div class="image" onclick="fetch_info(1)"><img src="2square.jpg"></div>
+        <div class="image" onclick="fetch_info(2)"><img src="3square.jpg"></div>
+        <div class="image" onclick="fetch_info(3)"><img src="4square.jpg"></div>
+        <div class="image" onclick="fetch_info(4)"><img src="5square.jpg"></div>
+    </div>
+    <div class="info-container">
+        <img class="profile" id="profile" src="1.jpg">
+        <div class="info">
+            <h1 class="name" id="name">Yassine Khemiri</h1>
+            <h3 class="status" id="status">Accounts Head</h3>
+            <p class="about" id="about">
+                azertyuiopqsdfghjklmwxcvbn.
+            </p>
+        </div>
+    </div>
+    <script>
+        function fetc_info(){
+            let profile=["1.jpg","2.jpg","3.jpg","4.jpg","jpg"];
+            let name=["Yassine Khemiri", "Ken Bigendakumana", "Jessica Guo", "Eby Guy Desire Wangni"]
+            let status=["Software Engeneering Student","Software Engeneering Student","Software Engeneering Student","Software Engeneering Student"]
+            document.getElementById("profile").src=profile[i];
+            document.getElementById("name").innerHTML=name[i];
+            document.getElementById("status").innerHTML=status[i];
+            document.getElementById("about").innerHTML=name[i] + "azertyuiopqsdfghjklmwxcvbn.";
+        }
+    </script>
+</body>
+
+</html>
 </body>
 </html>
+
