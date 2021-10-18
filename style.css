@@ -12,7 +12,7 @@ body{
 /* Feature page ********************/
 .featuresbox {
     width: 80%;
-    background: #262626;
+    background:#262626;
     float:center;
     box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
     margin-top: 2%;
