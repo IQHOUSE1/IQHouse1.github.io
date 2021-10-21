@@ -1,71 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-</style>
-</head>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team page</title>
-</head>
-<body>
-<ul>    
-    <li><a href="https://iqhouse1.github.io/index">Home</a></li>
-    <li><a href="https://iqhouse1.github.io/features">Features</a></li>
-    <li><a href="https://iqhouse1.github.io/pricing">Pricing</a></li>
-    <li><a href="https://iqhouse1.github.io/team">Team</a></li>
-</ul>
-/* Index ********************/
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="HOUSE IQ, WE INNOVATED" >
+    <meta name="description" content="HOUSE IQ, WE INNOVATED" >
+    <title>HOUSE IQ | Accueil</title>
+    
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Our Team</title>
+<!-- all css here -->
+<!-- bootstrap v3.3.7 css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<!-- animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+<!-- owl.carousel.2.0.0-beta.2.4 css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+<!-- font-awesome v4.6.3 css -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<!-- magnific-popup.css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+<!-- slicknav.min.css -->
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+<!-- style css -->
+<link rel="stylesheet" href="assets/css/styles.css">
+<!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+<!-- modernizr css -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
-
-<body>
-    <h1 class="heading">Our Team</h1>
-    <div class="image-container">
-        <div class="image" onclick="fetch_info(0)"><img src="1square.jpg"></div>
-        <div class="image" onclick="fetch_info(1)"><img src="2square.jpg"></div>
-        <div class="image" onclick="fetch_info(2)"><img src="/images/kenselfie.jpg"></div>
-        <div class="image" onclick="fetch_info(3)"><img src="/images/jessicaselfie.png"></div>
-        <div class="image" onclick="fetch_info(4)"><img src="5square.jpg"></div>
-    </div>
-    <div class="info-container">
-        <img class="profile" id="profile" src="1.jpg">
-        <div class="info">
-            <h1 class="name" id="name">Yassine Khemiri</h1>
-            <h3 class="status" id="status">Accounts Head</h3>
-            <p class="about" id="about">
-                azertyuiopqsdfghjklmwxcvbn.
-            </p>
+  <body>
+    <div class="container">
+      <header class="header-area">
+      <div class="header-middle bg-2">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3 hidden-sm hidden-xs">
+          <div class="logo">
+            <h1><a href="index.html"><img src="assets/images/logo.png" width="80"> HOUSE IQ </a></h1>
+          </div>
         </div>
+                  <div class="col-md-9 col-xs-12">
+                     
+                  </div>
+              </div>
+          </div>
+      </div>
+<div class="header-bottom" id="sticky-header">
+          <div class="container">
+      <div class="row">
+                  <div class="hidden-md hidden-lg col-sm-8 col-xs-6">
+          <div class="logo">
+            <h1><a href="index.html">HOUSE IQ </a></h1>
+          </div>
+        </div>
+      </div>
     </div>
-    <script>
-        function fetc_info(){
-            let profile=["1.jpg","2.jpg","3.jpg","4.jpg","jpg"];
-            let name=["Yassine Khemiri", "Ken Bigendakumana", "Jessica Guo", "Eby Guy Desire Wangni"]
-            let status=["Software Engeneering Student","Software Engeneering Student","Software Engeneering Student","Software Engeneering Student"]
-            document.getElementById("profile").src=profile[i];
-            document.getElementById("name").innerHTML=name[i];
-            document.getElementById("status").innerHTML=status[i];
-            document.getElementById("about").innerHTML=name[i] + "azertyuiopqsdfghjklmwxcvbn.";
-        }
-    </script>
-</body>
+</div>
+</header>
+    <div>
+      <h1>OUR TEAM</h1>
+    </div>
+    <table border="4" class="table">
+      <tr>
+        <td align="center"><img src="images/jessicaselfie.png" width="100" style="border-radius: 50px;"></td>
+        <td align="center"><img src="images/housebackground.png" width="100" style="border-radius: 50px;"></td>
+        <td align="center"><img src="images/kenselfie.jpg" width="100" style="border-radius: 50px;"></td>
+        <td align="center"><img src="images/whitelogo.png" width="100" style="border-radius: 50px;"></td>
+      </tr>
+      <tr>
+        <td align="center"><h2>Jessica Guo</h2></td>
+        <td align="center"><h2>Eby Guy Desire Wangni</h2></td>
+        <td align="center"><h2>Yassine Khemiri</h2></td>
+        <td align="center"><h2>Ken Bigendakumana</h2></td>
+      </tr>
+      <tr>
+        <td align="center">sqdfqsfqfqfqf</td>
+        <td align="center">dsqdqsdsqdsqd</td>
+        <td align="center">sqdsqdqdqd</td>
+        <td align="center">sqffsfdff</td>
+      </tr>
 
+    </table>
+    </div>
+  </body>
 </html>
-</body>
-</html>
-
