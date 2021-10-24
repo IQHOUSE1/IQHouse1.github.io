@@ -537,7 +537,6 @@ ul{
         padding: 28px 21px;
     text-decoration: none;
     text-shadow: none;
-    vertical-align: middle;
     height: 70px;
     width: 100px;
     background: #2f91aa;
@@ -1798,7 +1797,7 @@ ul{
 }
 .instagram-wrap ul li a::before{
     position: absolute;
-    left: 0
+    left: 0;
     top:0;
     width: 100%;
     height: 100%;
@@ -2747,7 +2746,7 @@ ul{
 .pagination-wrap ul li a{
     height: 45px;
     width: 45px;
-    background: #;
+    background:#2f91aa;
     line-height: 45px;
     display: block;
     border: 1px solid #2f91aa;

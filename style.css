@@ -44,11 +44,59 @@ body{
 /* Price page ********************/
 body{
     font-family:poppins;
+    height: 100%;   
+}
+.pricing-page-header{
+    overflow: auto;
+    background-color: cadetblue;
+    background-size: cover;
+
+}
+.navigation-bar{
+background: black;
+opacity: 0.5;
+
+}     
+.breadcrumbs{
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.pricing-page-breadcrumbs{
+  display: inline-block;  
+}   
+.pricing-page-breadcrumbs:not(:last-of-type)::after{
+    content:"/";
+    margin: 0px;
+    color:white;
+}  
+.link{
+    text-decoration: none;
+    color:rgb(20, 19, 19);
+}   
+.link:hover{
+text-decoration: underline;
+}
+.active{
+color:black;
+font-weight: 500;
+}   
+.pricing-page-footer{
+    background-color: cadetblue;
+    position:relative;
+    height: 100px;
+    margin-top:-100px;
+    clear: both;
+}  
+.main{
+    width: auto;
+    min-height: 100%;
+    overflow: auto;
+    padding-bottom: 100px;
     background-image: url("images/housebackground.png");
     background-size: cover;
-    background-attachment: fixed;
-    margin: 100px;
-}
+    margin: 100px auto;
+}    
 .plan{
     width:900px;
     margin: 5% auto; 
@@ -66,7 +114,7 @@ body{
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 2px solid #da4357;
+  border: 2px solid cadetblue;
   margin : 5% auto 0 auto;
   text-align: center;
 }
@@ -92,7 +140,7 @@ color: #fff;
     border-color: #fff;
 }   
 .price-box:hover {
-    background: #da4357;
+    background:cadetblue;
     color: #fff;
     box-shadow: 0 0 15px rgba(0,0,0,1);
     transform: scale(1.1);
@@ -101,7 +149,7 @@ color: #fff;
 }    
 .plan a{
     text-decoration: none;
-    background: #da4357;
+    background:cadetblue;
     color: #fff;
     padding: 10px 60px;
     display: inline-block;
@@ -113,6 +161,10 @@ color: #fff;
     background: #262626;
     color:#fff
 }
+.tag{
+    text-align: center;
+    padding: 20px 0;
+}  
 
 /* Team page */
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@100&display=swap');
