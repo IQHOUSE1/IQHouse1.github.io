@@ -661,19 +661,16 @@ ul{
 	z-index:99;
 }
 .slider-content h2{
-	text-transform:uppercase;
 	color:#fff;
 	margin-bottom:20px;
 	font-size:36px;
 }
 .slider-content h3{
 	color:#2f91aa;
-	text-transform:uppercase;
 	margin-bottom:15px;
 }
 .slider-content p{
 	color:#fff;
-	text-transform:capitalize;
 	margin-bottom:25px;
 }
 .slider-content ul li{
