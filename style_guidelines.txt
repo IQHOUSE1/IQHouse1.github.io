@@ -1,0 +1,37 @@
+The design and appeal of IQ House
+===========================
+
+We are looking for a plain modern look. We can have images as backgrounds
+for any pages, but would prefer a blue, white and black theme thoughout
+the website. A plain modern look would allow the website to feel simple, 
+accessible and interested in our innovate technology.
+
+Colors
+============================
+For IQ house we wanted to colors to be simple and shown commonly
+throughout the website to show a color theme. This would allow the users
+to feel comfort in its familiarity.
+
+-#2f91aa blue
+-#fff white
+-#000 black
+-#5f9ea0 cadetblue
+
+Iconography
+===========================
+We want a 2D house with brain design to simple show IQ House. Should be
+easily comprehensible and easy to look at.
+
+Typography
+===========================
+Poppins sans-serif from CSS
+Montserrat sans-serif from Google Fonts
+Fontawesome from Fontawesome
+
+Links
+===========================
+Should not be any links visible on the website should all be in a button.
+
+Buttons
+===========================
+Should change colors following the colors list listed above when hovered over.
